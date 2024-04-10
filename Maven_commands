@@ -7,3 +7,4 @@ mvn install -----> will install localy by creating a .m2 file
 mvn deploy ----> is used to deploy the artifact to remote repo like nexus "nexus" is a repo for storing artifactiory
 mvn clean -----> will remove the target folder "which was created during mvn package commad"
 mvn clean package ----> is used to remove previous target files and create a new target file 
+java -jar ( path of the jar files ) -----> to excute the java project 
