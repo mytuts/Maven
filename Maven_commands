@@ -1,0 +1,9 @@
+# maven is a java build tool, it has a set of commands to work with 
+mvn validate -------> is used to validate all the dpendency files
+mvn compile -----------> it first validate all the dpendency files and then check for syntax error
+mvn test ---------> it will check for test cases and if there is any test cases in the code it will run
+mvn package---------> it is used to create a artifict in jar or war file with complaing the dependency
+mvn install -----> will install localy by creating a .m2 file 
+mvn deploy ----> is used to deploy the artifact to remote repo like nexus "nexus" is a repo for storing artifactiory
+mvn clean -----> will remove the target folder "which was created during mvn package commad"
+mvn clean package ----> is used to remove previous target files and create a new target file 
